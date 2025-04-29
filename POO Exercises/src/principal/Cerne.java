@@ -11,8 +11,9 @@ public class Cerne {
         Pinheiro.tipo = "Conifera";
         Pinheiro.altura = 25.5;
 
-      /*  double oxigenio = Pinheiro.calcularOxigenio();
-        System.out.println();*/
+        Pinheiro.exibirInformacoes();
+        Pinheiro.calcularOxigenio();
+
 
 
     }
